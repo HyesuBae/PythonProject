@@ -69,4 +69,5 @@ if __name__ == "__main__":
         print url_for('hello')
         print url_for('hello_user', username='hyesu')
 
+    #app.run(host='0.0.0.0', debug=True)
     app.run(debug=True)
